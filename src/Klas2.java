@@ -1,4 +1,4 @@
-public class PAblo {
+public class Klas2 {
     public static int makeSomething(int i, int j) {
         return i + j;
     }
@@ -11,12 +11,11 @@ public class PAblo {
         return 3.14;
     }
 
- public  static void main(String[] args){
+    public  static void main(String[] args){
 
-     System.out.println(" " + makeSomething(31, 15));
-    // byte i = 1;
-   //  byte j =2;
-    // byte sum = (i+j);
- }
-
+        System.out.println(" " + makeSomething(31, 2));
+        // byte i = 1;
+        //  byte j =2;
+        // byte sum = (i+j);
+    }
 }
